@@ -6,4 +6,5 @@ public with sharing class Utility {
     public static Boolean isProduction = !Org.isSandbox;
     public static Boolean isSandbox = Org.isSandbox;
     public static Boolean isDevOrg = String.ValueOf(baseURL).contains('-dev-ed.my'); 
+    public static String testing;
 }
